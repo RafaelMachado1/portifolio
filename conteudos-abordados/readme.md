@@ -947,3 +947,348 @@ Nessa aula, você aprendeu como:
 - O que são variáveis CSS;
 - Como customizar o projeto aplicando variáveis CSS.
 
+
+
+# Curso 4 - HTML e CSS: trabalhando com responsividade e publicação de projetos
+
+## Certificado de conclusão do curso [acesse aqui](https://cursos.alura.com.br/certificate/b3d00603-faeb-45bf-aa61-bdc7a6c3ecd5)
+
+
+
+
+# Aula 1 Inidadades de medidas
+## ATIVIDADES
+- Apresentação
+- Preparando o ambiente
+- Unidade de Media REM
+- Aplicando o REM
+- Unidade de medida REM
+- Para saber mais: a importância de utilizar as unidades de medidas relativas
+- O que aprendemos?
+
+### Apresentação
+- Apresentação [acesse o vídeo](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/119274)
+
+### Preparando o ambiente
+Projeto base:
+
+- O projeto inicial deste curso foi implementado no curso anterior. Então, caso você tenha feito o anterior, pode prosseguir com o mesmo projeto. Caso contrário, você pode baixar o projeto anterior aqui ou [acessar os arquivos diretamente no Github!](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso3/tree/aula_5)
+
+Figma do curso:
+
+- Neste curso tomaremos como base o protótipo que está no Figma. Para acessá-lo, clique [aqui.](https://www.figma.com/file/NrzJacC887svMVfF9oC2jM/Portfolio-Projeto-2?node-id=0-1&t=xmf51NcLHlAY2b08-0)
+
+- Caso não tenha uma conta, crie uma ou se já for cadastrado faça o login em uma conta existente. Para isso, entre no site do [Figma](https://www.figma.com/) e clique em Log In (caso já tenha conta) ou em Sign Up (para cadastrar nova conta).
+
+
+### Unidade de Media REM
+- Unidade de Media REM [acesse o vídeo](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/119276)
+
+### Aplicando o REM
+- Aplicando o REM [acesse o vídeo](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/119277)
+
+### Unidade de medida REM
+- Unidade de medida REM [acesse](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/121381)
+
+### Para saber mais: a importância de utilizar as unidades de medidas relativas
+- É muito importante utilizarmos as unidades de medidas relativas nos textos e títulos ou até mesmo nos elementos do nosso site, como por exemplo, as imagens.
+
+- Essa medida ajuda as pessoas com baixa visão que precisam alterar a aparência do navegador ou aplicar mais zoom para aumentar o tamanho dos elementos.
+
+- Lembrando que podemos diminuir o zoom da página também quando quisermos ter uma visão mais ampla dos elementos. Muito legal não é mesmo? :)
+
+- Esse artigo da Alura sobre sobre unidades de medidas pode ajudar bastante o seu aprendizado: [Artigo sobre unidade de medidas .](https://www.alura.com.br/artigos/guia-de-unidades-no-css)
+
+- Você também pode ver a documentação sobre as [Unidades de medidas](https://www.w3schools.com/cssref/css_units.php) que foram utilizadas neste curso.
+
+### O que aprendemos?
+Nessa aula, você aprendeu:
+- Sobre medidas relativas e absolutas;
+- Utilizar a documentação sobre unidade de medidas;
+- Utilizar a unidade de medida REM;
+- Alterar a aparência do navegador em configurações.
+
+
+
+
+# Aula 2 Adaptando elementos
+## ATIVIDADES
+- Projeto da aula anterior
+- Descubra a super unidade de medida
+- Adaptando imagens
+- Para saber mais: Dev Tools - A melhor amiga de quem desenvolve
+- Figma Mobile
+- O que aprendemos?
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acesse os arquivos no Github](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso4)
+
+### Descubra a super unidade de medida
+- Descubra a super unidade de medida [acesse o vídeo](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/119278)
+
+### Adaptando imagens
+- Adaptando imagens [acesse](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/121386)
+
+### Para saber mais: Dev Tools - A melhor amiga de quem desenvolve
+
+ - A ferramenta de desenvolvimento (Dev Tool) ajuda muito no processo de criação e desenvolvimento de projetos web. Além de inspecionar os nossos códigos HTML e CSS, podemos fazer algumas alterações temporárias e ela nos mostra uma prévia de outros tamanhos de telas e dispositivos como tablets e celulares e isso ajuda muito na hora de criarmos a versão mobile e toda a parte responsiva.
+
+- Gostou? :) Agora você pode tentar também!
+
+- Para abrir o Dev Tools, quando estiver com o navegador aberto aperte as teclas CTRL + SHIFT + C no Chrome do Windows,ou COMMAND + OPTION + C no MAC ou você pode clicar com o botão direito do mouse na tela do navegador e clicar em inspecionar na lista suspensa ou inspect caso esteja em inglês. Veja:
+
+![](https://caelum-online-public.s3.amazonaws.com/2884-html-css/aula2-img1.png)
+
+Com o Dev Tools aberto você pode:
+- Escolher o tipo de dispositivo (celular, tablet etc);
+- Inspecionar os elementos HTML;
+- Alterar o tamanho da tela;
+- Alterar os estilos CSS da página temporariamente;
+- Apertar as teclas CTRL + SHIFT + M para abrir a visualização responsiva.
+
+![](https://caelum-online-public.s3.amazonaws.com/2884-html-css/aula2-img2.png)
+
+### Figma Mobile
+- Figma Mobile [acesse o vídeo](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/119279)
+
+
+### O que aprendemos?
+
+Nessa aula, você aprendeu:
+- Adaptar elementos;
+- Utilizar a ferramenta do DevTools;
+- Visualizar nosso projeto na versão responsiva;
+- Alterar o tamanho da visualização na tela;
+- Adaptar elementos utilizando a unidades de medidas.
+
+
+
+# Aula 3 Responsividade
+## ATIVIDADES
+- Projeto da aula anterior
+- Media Queries
+- Media Queries
+- Cabeçalho responsivo
+- Para saber mais: mais de uma Media Querie
+- Para saber mais: o que é responsividade
+- O que aprendemos?
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acesse os arquivos no Github](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso4/tree/aula_2)
+
+### Media Queries
+- Media Queries [acesse o video](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/119280)
+
+### Media Queries
+- Media Queries [acesse](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/121392)
+
+### Cabeçalho responsivo
+- Cabeçalho responsivo [acesse o vídeo](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/119281)
+
+### Para saber mais: mais de uma Media Querie
+- Sabia que você pode ter mais de uma media querie em seu projeto? É possível definir um tamanho de tela para o celular outro para o tablet e deixar a “padrão” para o desktop.
+
+Exemplo:
+
+- Podemos definir uma largura máxima de “480px” para o celular: @media (max-width: 480px), e em outra media querie definir uma largura máxima de “800px” para os tablets: @media (max-width: 800px), e então atribuímos os ajustes necessários dentro de cada media querie, dessa forma teremos nosso site 100% responsivo.
+
+- Podemos também definir intervalos para os tamanhos de telas com um único Media querie, atribuímos o valor mínimo e depois o valor máximo separando ele pelo atributo and, veja: @media (min-width: 480px ) and (max-width: 800px), nesse caso os estilos serão aplicados em telas de no mínimo “480px” e de no máximo “800px”.
+
+- Lembrando que a maioria dos acessos a internet hoje em dia é através dos dispositivos móveis, portanto, não se esqueça de sempre deixar os seus projetos e sites responsivos.
+
+- Para aprender mais, visite o site da Mozilla, e leia a documentação das media queries através deste [link.](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Media_Queries/Using_media_queries)
+
+### Para saber mais: o que é responsividade
+- Já notou que quando acessamos alguns sites eles mudam o seu layout a depender do dispositivo? Por exemplo, se você acessar o site da Alura no computador, o layout será um pouco diferente do que se você acessá-lo pelo celular.
+
+Mas, que ferramenta é responsável por isso?
+
+- A responsividade! Quando o site adapta o tamanho de suas páginas(Layout) de acordo com o tamanho da tela do dispositivo no qual ele está sendo acessado ou quando diminuímos o tamanho da janela do navegador (essa transformação pode ser feita também quando aplicamos um zoom na página), dizemos que este site é um site responsivo.
+
+- A responsividade não só altera o tamanho das fontes e elementos, como suporta qualquer mudança como por exemplo: na cor de fundo, cor de texto, bordas, etc. Isso depende dos estilos aplicados dentro das medias queries no arquivo CSS.
+
+- Se você atribuir uma cor de fundo diferente no body dentro da media query, a cor só vai alterar quando a tela atingir o tamanho definido por ela.
+
+- Nesse exemplo foi aplicada a cor roxa no body dentro da media query utilizada no projeto para telas de no máximo 1200 pixels, veja que legal o resultado:
+
+![](https://caelum-online-public.s3.amazonaws.com/2884-html-css/aula3-gif1.gif)
+
+- Você pode aprender muito mais aqui na Alura sobre responsividade através desse ótimo curso sobre Layouts Responsivos, acesse o [link .](https://cursos.alura.com.br/course/css-flexbox-layouts-responsivos)
+
+### O que aprendemos?
+
+Nessa aula, você aprendeu:
+- O que é a media querie;
+- O que é a responsividade;
+- Como adaptar nosso site para diferentes tamanhos de tela;
+- Que a unidade de medida porcentagem é amiga da responsividade.
+
+
+
+
+
+# Aula 4 Responsividade e Github
+## ATIVIDADES
+- Projeto da aula anterior
+- Conteúdo responsivo
+- Ajustando a largura
+- Criando uma conta no GitHub
+- Para saber mais: criando conta no GitHub
+- Para saber mais: Git e GitHub
+- O que aprendemos?
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acesse os arquivos no Github](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso4/tree/aula_3)
+
+### - Conteúdo responsivo
+- Conteúdo responsivo [acesse o vídeo](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/119283)
+
+### - Ajustando a largura
+- - Ajustando a largura [acesse](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/121400)
+
+### Criando uma conta no GitHub
+- Criando uma conta no GitHub [acesse o vídeo](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/119284)
+
+### Para saber mais: criando conta no GitHub
+- Primeiro passo para você criar uma conta no GitHub é acessar o site do GitHub através [deste link](https://github.com/) caso já tenha uma conta, clique em Sign in, caso não tenha uma conta clique em Sign up para criar uma nova:
+
+![](https://caelum-online-public.s3.amazonaws.com/2884-html-css/aula4-img1.png)
+
+Você vera uma página como essa:
+![](https://caelum-online-public.s3.amazonaws.com/2884-html-css/aula4-img2.png)
+
+Faça o seguinte:
+
+- Digite o seu e-mail;
+- Crie uma senha;
+- Digite um nome de usuário;
+- Se desejar receber atualizações e anúncios de produtos por e-mail, digite "y" para sim ou "n" para não;
+- Faça a verificação de humano;
+- Clica no botão Create Account.
+
+
+- Após preencher suas informações pessoais e clicar em Create Account Você receberá uma confirmação de cadastro por email, e daí para frente selecione as opções que achar adequado ao seu gosto.
+
+- Depois de validar sua conta é só utilizar os serviços do GitHub :)
+
+- Em caso de dúvidas, conte sempre com o fórum da Alura!
+
+### VPara saber mais: Git e GitHub
+- O Git é uma ferramenta de controle de versão de seu arquivo, projeto ou código. Já o GitHub é uma aplicação ou site onde você vai guardar os seus projetos com os arquivos dentro.
+
+- O Git é quem faz esse meio de campo entre a nossa máquina local e o Github, o Git realiza as tarefas através de comandos, onde você pode falar para ele quais arquivos ou pastas você quer subir(mandar) para o GitHub.
+
+- O legal do Github é que você pode guardar seus projetos nele e ainda compartilhar com outras pessoas desenvolvedoras, podendo dar sugestões e oferecer ajuda em outros projetos.
+
+- É essencial toda pessoa desenvolvedora aprender a utilizar o Git e GitHub, por isso deixo aqui a indicação desse ótimo curso sobre o tema através do [Link.](https://cursos.alura.com.br/course/git-github-repositorio-commit-versoes)
+
+- E também temos esse artigo do nosso CEO Paulo Silveira sobre os primeiros passos e configuração do Git e GitHub também aqui em nossa plataforma da Alura, acesse em [Link.](https://www.alura.com.br/artigos/o-que-e-git-github)
+
+- Além disso você também pode assistir aos dois vídeos da Rafa na série “O que é GIT e GITHUB”:
+
+[O que é o GIT E GITHUB? acesse](https://youtu.be/DqTITcMq68k)
+
+[Como usar GIT E GITHUB acesse](https://youtu.be/UBAX-13g8OM)
+
+
+### O que aprendemos?
+
+Nessa aula, você aprendeu:
+- Mais um pouco sobre responsividade;
+- O que é Git e GitHub;
+- Como criar uma nova conta no GitHub.
+
+
+
+
+# Aula 5 Repositório do GitHub
+## ATIVIDADES
+- Projeto da aula anterior
+- Criando o repositório
+- Para saber mais: repositório e Readme
+- Colocando o projeto no ar
+- Para saber mais: criando conta na Vercel
+- Projeto final do curso
+- O que aprendemos?
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acesse os arquivos no Github](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso4/tree/aula_4)
+
+### Criando o repositório
+- Criando o repositório [acesse o vídeo](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/119285)
+
+### Para saber mais: repositório e Readme
+- O Repositório nada mais é que uma pasta do projeto que está salva na nuvem. No caso no GitHub, você cria o repositório com o nome do seu projeto e sobe os arquivos para dentro desta pasta. Depois de criar o repositório e colocar os arquivos dentro dele, você agora consegue criar e customizar o famoso arquivo Readme.md que é onde você consegue colocar as especificações do projeto e falar mais sobre ele, assim outras pessoas que entrarem no seu repositório irão ver e entender o seu projeto, e quais ferramentas foram utilizadas para desenvolvê-lo.
+
+- A página do arquivo Readme.md pode ser escrita utilizando o próprio HTML ou a linguagem de marcação Markdown, é mais comum utilizar markdown.
+
+- Você pode ler mais sobre Markdown através deste [artigo.](https://www.alura.com.br/artigos/como-trabalhar-com-markdown)
+
+- Para aprender mais sobre o Readme, ver exemplos e criar um do zero, acesse o [Link do template sobre o Readme!](https://github.com/alura-cursos/readme-template)
+
+- Convidar o pessoal a conhecer os Readmes dos projetos da Alura
+
+- Veja que legal o Readme do projeto Alura Midi do curso de Javascript, acesse em:[Readme Alura Midi!](https://github.com/vanessametonini/aluramidi-curso/blob/master/README.md)
+
+- E esse outro Readme do projeto android com kotlin do curso de android, acesse em: [Readme Android Kotlin !](https://github.com/alura-cursos/android-com-kotlin-personalizando-ui/blob/master/README.md)
+
+- Veja também esse exemplo de Readme escrito em Markdown feito propriamente para o repositório desse nosso curso de HTML e CSS:
+
+Escrita em Markdown
+
+```
+# Portfólio Olá, Bem vindo ao meu projeto de portfólio.
+
+![image](https://user-images.githubusercontent.com/77756047/211304452-220fedf0-f91b-490f-8a65-a60ce860bc5c.png)
+
+## Ferramentas utilizadas:
+
+* HTML
+
+* CSS
+
+* Flex-box
+
+## Feito por:
+
+### Joana Santos
+
+### Linkedin: https://www.linkedin.com/school/aluracursos/
+
+```
+
+Veja que legal como fica a página inicial do repositório:
+
+Resultado
+
+![](https://caelum-online-public.s3.amazonaws.com/2884-html-css/aula5-img1.png)
+
+Muito mais apresentável, não é mesmo?
+
+Agora que tal editar seu arquivo Readme e customizá-lo do seu jeito? Explique um pouco mais sobre o seu projeto, ferramentas utilizadas, objetivo do projeto e etc. E mais importante, compartilhe sua experiência de aprendizado com outras pessoas! =)
+
+### Colocando o projeto no ar
+- Colocando o projeto no ar [acesse o vídeo](https://cursos.alura.com.br/course/html-css-responsividade-publicacao-projetos/task/119287)
+
+### Para saber mais: criando conta na Vercel
+- Primeiro passo para você criar uma conta na Vercel é acessar o site Vercel através [deste link](https://vercel.com/dashboard) e clicar em Sign up.
+
+![](https://caelum-online-public.s3.amazonaws.com/2884-html-css/aula5-img2.png)
+
+Após clicar em Sing up você verá uma página como essa:
+
+![](https://caelum-online-public.s3.amazonaws.com/2884-html-css/aula5-img3.png)
+
+
+
+- Então, clique em continuar com GitHub e pronto, sua conta foi criada! Agora é só utilizar os serviços da Vercel :)
+
+- Em caso de dúvidas, conte sempre com o fórum da Alura ou com a nossa incrível comunidade no Discord!
+
+### O que aprendemos?
+
+Nessa aula, você aprendeu como:
+- Criar o primeiro repositório no GitHub;
+- Subir o projeto para o repositório;
+- Criar uma conta na Vercel;
+- Colocar o projeto no ar e compartilhar com o mundo.

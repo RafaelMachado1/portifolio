@@ -85,3 +85,47 @@ body {
 
 
 
+@media (max-width: 1200px) {
+    .cabecalho{
+         padding: 10%;  
+    }
+    .cabecalho__menu{
+        justify-content: center;
+    }
+    .apresentacao{
+        flex-direction: column-reverse;
+        padding: 5%;
+    }
+    .apresentacao__conteudo{
+        width: auto;
+    }
+}
+
+
+
+@media (max-width: 614px){
+    .cabecalho__menu{
+        gap: 30px;
+        
+        
+    }
+
+    .cabecalho__menu__link{
+        font-size: 1.3rem;
+        
+    }
+
+    .apresentacao__imagem {
+        width: 60%;
+    }
+}
+
+@media (max-width: 431px){
+    .cabecalho__menu__link{
+        font-size: 1rem;
+        
+    }
+}
+
+
+
