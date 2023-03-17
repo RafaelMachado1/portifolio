@@ -1,11 +1,9 @@
+
 # HTML_e_CSS a partir do zero: HTML e CSS para projetos web
 
 # Curso 1 - HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags
 
-
 ## Certificado de conclusão do curso [acesse aqui](https://cursos.alura.com.br/certificate/7eb292c6-8ca7-4bec-babc-e59aefdbb44e)
-
-
 
 # Aula 1 O editor de código VSCode
 ## ATIVIDADES
@@ -19,10 +17,10 @@
 - O que aprendemos?
 
 ### Apresentação
-- Apresentação [acesse o vídeo](https://cursos.alura.com.br/course/html-css-ambiente-arquivos-tags/task/118936)
+- Apresentação acesse o [vídeo](https://cursos.alura.com.br/course/html-css-ambiente-arquivos-tags/task/118936)
 
 ### Criando um arquivo
-- Criando um arquivo [acesse o vídeo](https://cursos.alura.com.br/course/html-css-ambiente-arquivos-tags/task/118937)
+- Criando um arquivo acesse o [vídeo](https://cursos.alura.com.br/course/html-css-ambiente-arquivos-tags/task/118937)
 
 ### Preparando o ambiente
 - Preparando o ambiente [acesse](https://cursos.alura.com.br/course/html-css-ambiente-arquivos-tags/task/120590)
@@ -328,3 +326,272 @@ Nessa aula, você aprendeu como:
 - Destacar o texto e alterar a cor do texto em destaque.
 
 
+
+
+
+# Curso 2 - HTML e CSS: Classes, posicionamento e Flexbox
+
+## Certificado de conclusão do curso [acesse aqui](https://cursos.alura.com.br/certificate/a226015a-2616-481f-85ca-98b5a4572d5b)
+
+# Aula 1 Seletores e posicionamento
+## ATIVIDADES
+- Apresentação
+- Preparando o ambiente
+- Clsses no CSS
+- Para saber mais: Class
+- Seletor de classe
+- Para saber mais: seletores
+- Box Model
+- Reset CSS
+- O que aprendemos?
+
+### Apresentação
+- Apresentação [acesse o vídeo](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/118637)
+
+### Preparando o ambiente
+- Olá Dev!
+- Boas-vindas ao curso de HTML e CSS: posicionamento, fontes e Flexbox!
+
+- Neste treinamento, usaremos o editor de código [Visual Studio Code.](https://code.visualstudio.com/download) Ele pode ser baixado tanto para Windows, como Linux ou Mac.
+
+- Além disso, estamos usando o [Chrome](https://www.google.com/intl/en_us/chrome/) como navegador principal e é importante tê-lo instalado em seu computador.
+
+- Caso você queira dar uma olhada no layout, esse é o [figma]() do projeto!
+
+- E por último e não menos importante, para se aprofundar no CSS e entender como funciona a estilização de páginas com tecnologias do mundo real, é necessário que você acesse e [baixe os arquivos no Github!](https://github.com/alura-cursos/Portifolio-HTML-e-CSS/tree/aula_5)
+
+
+### Classes no CSS
+- Classes no CSS [acesse o vídeo](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/118638)
+
+### Para saber mais: Class
+- Class
+Agora você já sabe que o atributo class permite ao CSS selecionar e acessar elementos específicos através dos seletores de classe, mas para entender de forma mais clara e objetiva, você pode acessar a documentação oficial [MDN](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Global_attributes/class) para tirar dúvidas.
+
+- Nomes de classes no CSS
+Quer entender as boas práticas para dar um nome nas classes do CSS? Recomendamos a leitura do artigo [Nomes de classes no CSS,](https://www.alura.com.br/artigos/nomes-de-classes-no-css) que aborda de forma simples e prática esse conceito.
+
+### Seletor de classes
+- Seletor de classes [acesse](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/120910)
+
+### Para saber mais seletores
+- Seletores
+Agora que você já viu e praticou o conceito de seletores, te convido a ler a documentação [MDN](https://developer.mozilla.org/pt-BR/docs/Web/CSS/CSS_Selectors) para se aprofundar ainda mais no assunto.
+
+- Reset CSS
+Para mergulhar ainda mais nesse mundo Front-end, indico que leia o artigo [Reset CSS: O que é, Exemplos, Como Criar e Utilizar.](https://www.alura.com.br/artigos/o-que-e-reset-css) Ele é muito relevante para o nosso treinamento, pois além de mostrar de forma detalhada como funciona essa ferramenta, também aborda conceitos e práticas que com certeza irão te auxiliar na sua jornada Dev!
+
+### Box Model
+- Box Model [acesse o vídeo](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/118639)
+
+### Reset CSS
+- Reset CSS [acesse](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/120913)
+
+### O que aprendemos?
+Nessa aula, você aprendeu:
+- Utilizar classes no HTML e CSS;
+- Boas práticas na criação das classes;
+- Posicionamento de elementos com CSS;
+- Importância de resetar o padrão do CSS;
+- Testar os elementos da página inspecionando via ferramenta de desenvolvimento;
+- Box model (margin, border e padding);
+Diferentes seletores CSS.
+
+
+# Aula 2 Posicionando mais elementos
+## ATIVIDADES
+- Projeto da aula anterior
+- Heigth e box-sizing
+- Para saber mais: viewport
+- Posicionando uma imagem com box-sizing
+- Flexbox
+- Utilizando o Flexbox
+- Para saber mais: guia Flexbox
+- Faça como eu fiz: alinhe os elementos
+- O que aprendemos?
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acessar os arquivos no GitHub](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso2/tree/aula_1)
+
+### Heigth e box-sizing
+- Heigth e box-sizing [acesse o vídeo](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/118640)
+
+# Para saber mais: viewport
+- O que é Viewport?
+Em computação gráfica, a viewport é a porção de área visível de um plano e é utilizada como unidade de medida no CSS para criar páginas Web 100% responsivas. Em outras palavras, a viewport varia de dispositivo para dispositivo, por exemplo em computadores, tablets e celulares, cada tela possui dimensões diferentes e enquanto uma página não responsiva apresentaria os elementos desproporcionais, uma página responsiva utilizando viewport teria seus elementos adequados a cada proporção.
+
+- Se você demonstrou interesse pelo assunto e quer se aprofundar mais, recomendamos que leia o artigo [Guia de Unidades no CSS.](https://www.alura.com.br/artigos/guia-de-unidades-no-css) Através dele você vai conhecer não só a Viewport, mas também outras unidades e conceitos muito utilizados no dia a dia de Dev Front-end.
+
+### Posicionando uma imagem com box-sizing
+- Posicionando uma imagem com box-sizing [acesse](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/120919)
+
+### Flexbox
+- Flexbox [acesse o video](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/118641)
+
+### Utilizando o Flexbox
+- Utilizando o Flexbox [acesse](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/120921)
+
+### Para saber mais: guia Flexbox
+- Guia completo do Flexbox
+Durante a aula foi apresentado o [Complete Guide to Flexbox.](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) Ele é recomendado, pois simplifica e abrange tudo sobre o layout CSS Flexbox, explicando sobre as diferentes propriedades para o elemento pai e os elementos filhos. Ele também inclui histórico, demonstrações, padrões e um gráfico de suporte do navegador.
+
+- Material Alura
+Se você quiser mergulhar de vez nesse assunto, você pode explorar o nosso curso [CSS: Flexbox e layouts responsivos](https://cursos.alura.com.br/course/css-flexbox-layouts-responsivos) e também recomendamos que busque por [CSS: Flexbox](https://cursos.alura.com.br/search?query=flexbox) aqui na escola. Contamos com diversos outros materiais entre cursos, artigos e Alura+ para estruturar e complementar seus estudos.
+
+### Faça como eu fiz: alinhe os elementos
+- HTML
+Antes de alinhar os itens no CSS temos que criar a classe lá no arquivo HTML. Para isso vamos na tag `<main>` e dentro delas adicionamos a propriedade class. Lembrando que como qualquer outra propriedade devemos utilizar o sinal de = para atribuir um valor, ou neste caso um nome, e o mesmo deve estar entre aspas duplas (“”). Acompanhe o código:
+
+`<main class=”apresentacao”>`
+
+- CSS
+Agora que o código HTML está pronto, vamos alinhar os elementos no CSS. Para começar, utilizamos o seletor .apresentacao para selecionar apenas os elementos que estão dentro da nossa classe criada no conteúdo main. Após abrir e fechar as chaves, estrutura básica do CSS, vamos utilizar apenas duas linhas de código para conseguir o resultado final. Segue o código abaixo:
+
+`
+.apresentacao {
+
+    display: flex;
+    align-items: center;
+}
+`
+
+- Repare agora que utilizamos a propriedade display com o valor flex para podermos utilizar o flexbox em nossa estilização. Aí sim, de fato, escrevemos o align-items com o valor center para alinhar os elementos, centralizando-os em relação a si mesmo. E pronto! Temos o nosso código estruturado e funcional, com os elementos alinhados.
+
+### O que aprendemos?
+- Nessa aula, você aprendeu:
+Padrões de projetos CSS com height e box-sizing;
+Unidade Viewport;
+Hierarquia entre elementos pai e filho;
+Formas e parâmetros de posicionamento;
+Flexbox.
+
+# Aula 3 Estilos de textos e fontes
+## ATIVIDADES
+- Projeto da aula anterior
+- Alinhando o conteúdo
+- Justificando elementos
+- Para saber mais: indentação
+- Estilizando o texto
+- Importando fontes
+- Customizando o título do projeto
+- Para saber mais: Google Fonts
+- O que aprendemos?
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acessar os arquivos no GitHub](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso2/tree/aula_2)
+
+### Alinhando o conteúdo
+- Alinhando o conteúdo [acesse o vídeo](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/118642)
+
+### Justificando elementos
+- Justificando elementos [acesse](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/121087)
+
+### Para saber mais: indentação
+
+- Uma boa prática ao escrever seu código
+Indentação é o espaçamento aplicado no início das linhas de código que ajuda a manter uma hierarquia visual. Em algumas linguagens esse não é um elemento que impede o código de ser compilado, mas manter o código indentado é fundamental para facilitar sua leitura, principalmente para terceiros.
+ - Se você curtiu aprender mais sobre a estrutura e boas práticas do HTML e deseja se aprofundar, recomendamos a documentação [Iniciando com HTML](https://developer.mozilla.org/pt-BR/docs/Learn/HTML/Introduction_to_HTML/Getting_started) da Mozilla Developer Network.
+
+### Estilizando o texto
+- Estilizando o texto [acesse o vídeo](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/118643
+
+### Importando fontes
+- Importando fontes [acesse o vídeo](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/118644)
+
+
+### Customizando o título do projeto
+- Customizando o título do projeto [acesse](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/121089)
+
+### Para saber mais: Google Fonts
+- [Google Fonts](https://fonts.google.com/)
+é uma biblioteca da Google com mais de 1000 fontes livres licenciadas. Além de um diretório web interativo para navegar na biblioteca, existem atalhos para usar convenientemente as fontes através do CSS.
+
+- Como importar as fontes.
+Para isso, recomendamos a leitura do guia oficial [Primeiros passos com a API Google Fonts,](https://developers.google.com/fonts/docs/getting_started?hl=pt-br) o qual explica passo a passo como funciona e como utilizar a biblioteca.
+
+### O que aprendemos?
+Nessa aula, você aprendeu:
+- Criar seções (sections) no HTML;
+- Posicionar elementos com Flexbox utilizando o justify-content;
+- Indentar o código;
+- Boas práticas para nomear sections;
+- Utilizar o Figma para consultar medidas de elementos;
+- Alterar o tamanho, tipo e peso da fonte com font-size, font-family e font-weight;
+- Importar fontes com Google Fonts.
+
+
+# Aula 4 Manipulando botões
+## ATIVIDADES
+- Projeto da aula anterior
+- Posicionando botões
+- Para saber mais: divisões
+- Estilizando os botões
+- Editando o elemento âncora
+- Para saber mais: bordas
+- O que aprendemos?
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acessar os arquivos no GitHub](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso2/tree/aula_3)
+
+### Posicionando botões
+- Posicionando botões [acesse o video](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/118645)
+
+### Para saber mais: divisões
+- Quando utilizar div
+A tag `<div>` define uma divisão em um documento HTML e costuma ser usada como um contêiner para outros elementos, o que ajuda na estilização do bloco. Por esse motivo, a `<div>` é frequentemente utilizada quando precisamos agrupar elementos sem usar as tags semânticas do HTML. Isso acontece porque a `<div>` não tem valor semântico. Portanto, não significa nada para os navegadores e mecanismos de pesquisa.
+
+- Além do mais, por ser muito utilizada para agrupar elementos, acaba facilitando na organização das informações nos layouts. Dessa forma, pode ser formatada e manipulada organicamente via CSS. Geralmente vem acompanhado de atributos de ID e classe para facilitar essa organização e formatação.
+Se quiser aprofundar no assunto, recomendamos que leia a [documentação oficial.](https://developer.mozilla.org/pt-BR/docs/Web/HTML/Element/div)
+
+### Estilizando os botões
+- Estilizando os botões [acesse o vídeo](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/118646)
+
+### Editando o elemento âncora
+- Editando o elemento âncora [acesse](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/121094)
+
+### Para saber mais: bordas
+CSS Border
+- A propriedade border é responsável pelas bordas dos elementos HTML. Ao inserir um elemento em um documento HTML, há várias possibilidades de estilizar sua borda. Você pode utilizar estilos que a propriedade já possui, além de poder também alterar sua cor, espessura e até mesmo seu formato! Utilizando apenas o poder do CSS!
+
+- Se quiser mergulhar de vez nesse assunto, você pode explorar o nosso artigo [CSS Border: estilizando com bordas seus elementos CSS.](https://www.alura.com.br/artigos/css-border-estilizando-bordas-elementos-css) Nele você vai encontrar um passo a passo explicado e detalhado de como utilizar essa propriedade.
+
+### O que aprendemos?
+Nessa aula, você aprendeu como:
+- Posicionar e estilizar botões;
+- Criar e utilizar divisões (divs) no projeto;
+- Identificar o espaçamento no Figma;
+- Retirar o sublinhado com o text-decoration;
+- Arredondar bordas com border-radius.
+
+# Aula 5 Ajustando o espaçamento
+## ATIVIDADES
+- Projeto da aula anterior
+- Recurso Gap
+- Para saber mais: propriedades do Flexbox
+- Espaçando elementos filhos
+- O que aprendemos?
+
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acessar os arquivos no GitHub](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso2/tree/aula_4)
+
+### Recurso Gap
+- Recurso Gap [acesse o vídeo](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/118647)
+
+### Para saber mais: propriedades do Flexbox
+
+Gap
+- A propriedade gap não é exclusiva do Flexbox, porém é utilizada quase sempre em conjunto com ele. Ela especifica no CSS o tamanho dos espaços entre linhas e colunas em layouts de grid, flex e multi-column. Sua sintaxe é bem simples e ela aceita um ou dois valores.
+Para entender mais dessa propriedade em específico, recomendamos a leitura do artigo gap, presente no [CSS-Tricks.](https://css-tricks.com/)
+
+Outras propriedades importantes
+- Se você deseja aprender sobre outras propriedades importantes para o Flexbox, leia o nosso artigo [Flexbox CSS: Guia Completo, Elementos e Exemplos.](https://www.alura.com.br/artigos/css-guia-do-flexbox)
+
+### Espaçando elementos filhos
+- Espaçando elementos filhos [acesse](https://cursos.alura.com.br/course/html-css-classes-posicionamento-flexbox/task/121099)
+
+### O que aprendemos?
+Nessa aula, você aprendeu como:
+- Definir espaçamento vertical e horizontal;
+- Posicionar os elementos em coluna com Flexbox;
+- Utilizar o recurso Gap para espaçar cada elemento filho.
