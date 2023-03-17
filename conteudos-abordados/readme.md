@@ -595,3 +595,355 @@ Nessa aula, você aprendeu como:
 - Definir espaçamento vertical e horizontal;
 - Posicionar os elementos em coluna com Flexbox;
 - Utilizar o recurso Gap para espaçar cada elemento filho.
+
+
+# Curso 3 - HTML e CSS: cabeçalho, footer e variáveis CSS
+
+## Certificado de conclusão do curso [acesse aqui](https://cursos.alura.com.br/certificate/32c23068-a17e-46b2-8f8e-1dfe545d1155)
+
+# Aula 1 Preparando o layout do projeto
+## ATIVIDADES
+- Apresentação
+- Preparando o ambiente
+- Figma do projeto atualizado
+- Posicionando os links
+- Alinhando com display flex
+- Estilizando os links
+- Para saber mais: borde e comentário nos códigos
+- O que aprendemos?
+
+### Apresentação
+- Apresentação [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119357)
+
+### Preparando o ambiente
+Olá Dev!
+- Boas vindas ao curso de HTML e CSS - Desenvolvendo o cabeçalho, footer e variáveis CSS!
+
+- Este curso é o terceiro da sequência de HTML e CSS, por isso, caso você não tenha desenvolvido o código dos cursos anteriores, é importante que baixe o zip do projeto dos cursos anteriores ou [acesse os arquivos no Github](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso2/tree/aula_5) antes de iniciarmos.
+
+- Aqui vamos aprimorar ainda mais nosso projeto de portfólio, aprenderemos a atualizar nosso código e a implementar a navegação entre telas!
+
+- Para que esse refinamento ocorra da melhor forma possível, iremos trabalhar com um layout atualizado, que você pode acessar através desse [Figma.](https://www.figma.com/file/NrzJacC887svMVfF9oC2jM/Portfolio-Projeto-2?node-id=0-1&t=EwX3L5tO99v9LkQk-0)
+
+- Além disso, seguiremos utilizando o editor de código [Visual Studio Code](https://code.visualstudio.com/download) como ferramenta de desenvolvimento, que pode ser baixado para Windows, Linux ou Mac.
+
+- Caso tenha dúvidas na instalação ou ao longo do curso, fique à vontade tanto para criar um tópico no fórum como para interagir conosco através do Discord da Alura. E ainda que não tenha dúvidas, você também pode ajudar outras pessoas compartilhando seus aprendizados e projetos por lá e nós vamos adorar acompanhar seu progresso!
+
+Vamos começar? =)
+
+
+### Figma do projeto atualizado
+- Figma do projeto atualizado [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119358)
+
+### Posicionando os links
+- Posicionando os links [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119359)
+
+### Alinhando com display flex
+- Alinhando com display flex [acesse](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/121104)
+
+### Estilizando os links
+- Estilizando os links [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119360)
+
+### Para saber mais: border e comentário nos códigos
+- Durante a aula, personalizamos a propriedade CSS chamada border, para adicionar a borda em volta dos botões. Essa propriedade pode ser usada para definir os valores de largura da borda, estilo da borda e cor da borda e possui alguns estilos diferentes, como o “dotted”, que conhecemos na aula através da [documentação.](https://www.w3schools.com/css/css_border.asp)
+
+- Caso você queira conhecer melhor essa propriedade, que tal dar uma olhada no artigo [CSS Border: estilizando com bordas seus elementos CSS](https://www.alura.com.br/artigos/css-border-estilizando-bordas-elementos-css) e no [Alura+](https://cursos.alura.com.br/extra/alura-mais/css-border-estilizando-com-bordas-seus-elementos-css-c1486) de mesmo nome feitos pelo instrutor Luan Alves?
+
+O que são comentários?
+- Comentários são notas de texto que podem ser inseridas ao longo do desenvolvimento e que serão ignoradas pelo código, portanto não interferem em seu funcionamento.
+
+Para que servem os comentários
+- Os comentários podem ser usados para anotar informações importantes sobre o código, para salvar códigos que estivermos testando sem que haja necessidade de apagar e reescrever, para descrever alguma função específica e facilitar manutenções futuras ou até para auxiliar na organização das ideias de construção do código.
+
+Como comentar em HTML e CSS
+- O uso de comentários é comum em diversas linguagens e cada uma terá sua sintaxe particular. Isso também acontece em HTML e CSS, já que em cada uma temos uma maneira de adicionar comentários, que vamos conhecer a seguir:
+
+HTML
+Os comentários no HTML se assemelham com uma abertura de tag. Abrimos um comentário com `<!-- e fazemos seu fechamento com -->`. Tudo que estiver entre esses dois marcadores será considerado como comentário, inclusive quebras de linha:
+
+
+```
+<p> Isso é um parágrafo de texto e será exibido pelo navegador </p>
+
+<!-- Isso é um comentário e será ignorado  -->
+
+<!-- Isso é um comentário com quebra de linha
+
+e também será ignorado  -->
+
+<p> Isso é um parágrafo de texto e será exibido pelo navegador </p>
+```
+
+CSS
+- Os comentários em CSS também possuem abertura e fechamento. Abrimos esse tipo de comentário com /* e fechamos com */ e assim como no HTML, tudo que estiver entre essas marcações será considerado comentário, ainda que esteja entre mais de uma linha:
+
+```
+
+body{
+    background-color: white; 
+    /* Isso é um comentário em CSS */
+    /* 
+        Isso é um comentário em CSS com
+        quebra de linha
+    */
+}
+```
+
+Boas práticas ao comentar
+Os comentários podem ser muito úteis para facilitar o desenvolvimento, no entanto, precisamos ter atenção a algumas boas práticas para fazer seu uso adequado:
+
+- Evite adicionar muitos comentários para não gerar uma “bagunça” em seu código;
+- Evite criar comentários muito longos. Tenha em mente que apesar de não serem executados, esses comentários ocupam espaço e podem deixar seu arquivo mais pesado;
+- Use os comentários a seu favor, ou seja, anote informações essenciais neles, pois isso irá facilitar com que você encontre aquilo que é realmente necessário lembrar no momento de fazer manutenções em seu código;
+- Ao usar comentários para testar sua aplicação, lembre-se de apagar essas notas quando terminar, para que seu código não fique desorganizado e com partes desnecessárias;
+- Por fim, lembre-se sempre que um código descritivo é mais duradouro que muitos comentários. Quando estiver trabalhando com HTML, lembre-se de usar as [Tags semânticas](https://developer.mozilla.org/pt-BR/docs/Glossary/Semantics) e ao criar suas classes CSS, adicione nomes significativos. Assim, seu código ficará naturalmente descritivo e não dependerá tanto dos comentários, que podem ser apagados ou se perderem ao longo de manutenções =) .
+
+### O que aprendemos?
+Nessa aula, você aprendeu como:
+- Funciona a atualização do layout de um projeto no Figma;
+- Posicionar os botões conforme o novo layout através do display: flex;
+- Fazer a estilização dos botões conforme o novo layout.
+
+
+# Aula 2 Criando ícones clicáveis
+## ATIVIDADES
+- Projeto da aula anterior
+- Preparando o ambiente
+- Ícones das redes sociais
+- Buscando arquivos em pastas
+- Posicionando os ícones
+- Posicionando com Flexbox
+- Hover
+- Desafio: personalizando com o Hover
+- Para saber mais: Hover
+- O que aprendemos?
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acesse os arquivos no gitHub](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso3/tree/aula_1)
+
+
+### - Preparando o ambiente
+- Nas próximas aulas iremos adicionar ícones ao nosso projeto. Para baixar a pasta com as imagens que usaremos para criar esses ícones, basta clicar aqui ou [acessar os arquivos no Github](https://github.com/alura-cursos/Assets-aula2-curso3-html-e-css) =)
+
+### Ícones das redes sociais
+- Ícones das redes sociais [acesse o víedo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119361)
+
+### Buscando arquivos em pastas
+- Buscando arquivos em pastas [acesse](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/121109)
+
+### Posicionando os ícones 
+- Posicionando os ícones [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119362)
+
+### Posicionando com Flexbox
+- Posicionando com Flexbox [acesse](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/121110)
+
+### Hover
+- Hover [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119363)
+
+### Para saber mais: Hover
+- O hover é usado para selecionar elementos quando você passa o mouse sobre eles. O único elemento que ele não estiliza são os links, que possuem seletores próprios. Essa e outras informações úteis sobre o hover você pode encontrar na [documentação](https://www.w3schools.com/CSSref/sel_hover.php) =)
+
+### O que aprendemos?
+Nessa aula, você aprendeu como:
+- Adicionar ícones aos links clicáveis;
+- Alinhar elementos com justify-content;
+- Estilizar elementos ao passar o mouse sobre eles com o seletor hover.
+
+
+# Aula 3 Criando criando Header e footer
+## ATIVIDADES
+- Projeto da aula anterior
+- Desenvolvendo o footer
+- Desenvolvendo o cabeçalho
+- Trabalhando com tags semânticas
+- Para saber mais: Padding
+- O que aprendemos?
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acesse os arquivos no GiHub](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/121114)
+
+### Desenvolvendo o footer
+- Desenvolvendo o footer [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119364)
+
+### Desenvolvendo o cabeçalho
+- Desenvolvendo o cabeçalho [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119365)
+
+### Trabalhando com tags semânticas
+- Trabalhando com tags semânticas [acesse](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/121115)
+
+### Para saber mais: Padding
+- Observe a imagem a seguir:
+![](https://caelum-online-public.s3.amazonaws.com/2811-html-css-cabecalho-footer-variaveis-css/aula3-img1.png)
+
+- A tela acima apresenta os botões que criamos em nosso projeto para acessar as redes sociais. No entanto, podemos perceber que o ícone e o texto dentro de cada botão ficou “espremido” pelas bordas, o que desfavorece o visual do projeto.
+Todos os botões têm conteúdos: um ícone e o texto com o nome da rede social. Além disso, todos os botões possuem uma borda fina em azul. Portanto, precisamos adicionar alguma propriedade que faça com que haja um espaço entre o conteúdo e as bordas do botão, para obtermos o seguinte resultado:
+
+![](https://caelum-online-public.s3.amazonaws.com/2811-html-css-cabecalho-footer-variaveis-css/aula3-img2.png)
+
+- Bem melhor não é? Mas você sabe qual propriedade nos ajudou a definir a distância entre o conteúdo e a borda?
+Se você pensou no padding, acertou!
+
+- O Padding é responsável por definir a distância entre um conteúdo e suas bordas. No caso do nosso projeto, adicionamos um padding: 21.5px 0, que já foi suficiente para criar um espaço interno mais amplo nos botões. Essa propriedade é extremamente útil pois garante que exista esse espaço de “respiro” entre as bordas e o conteúdo, deixando o visual mais limpo e harmônico.
+Para entender melhor ainda como o padding funciona, você pode consultar a [documentação.](https://www.w3schools.com/csS/css_padding.asp)
+
+### O que aprendemos?
+Nessa aula, você aprendeu como:
+- Criar e fazer a estilização do footer da página;
+- Criar o header da página;
+- Aplicar os links de navegação através da tag `<nav>.`
+
+
+# Aula 4 Navegando entre páginas
+## ATIVIDADES
+- Projeto da aula anterior
+- Estilizando o cabeçalho
+- Desenvolvendo a nova página
+- Navegando entre páginas
+- Criando a navegação entre páginas
+- Desafio: crie uma página currículo!
+- O que aprendemos?
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acesse os arquivos no Github](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso3/tree/aula_3)
+
+### Estilizando o cabeçalho
+- Estilizando o cabeçalho [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119367)
+
+### Desenvolvendo a nova página
+- Desenvolvendo a nova página [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119368)
+
+### Navegando entre páginas
+- Navegando entre páginas [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119369)
+
+### Criando a navegação entre páginas
+- Criando a navegação entre páginas [acesse](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/121119)
+
+### Desafio: crie uma página currículo!
+- Agora que você aprendeu a criar outras páginas com HTML, queremos te desafiar!
+
+Crie mais uma página em seu projeto e construa nela o seu currículo.
+
+Você pode seguir a estrutura dos currículos tradicionais, com suas informações no topo e sua estrutura dividida em seções, ou você pode soltar sua criatividade e fazer algo totalmente diferente, fica a seu critério.
+
+É importante que nessa página currículo você adicione uma imagem sua e crie pelo menos uma lista HTML, que contenha suas experiências de trabalho ou estudos.
+
+Além disso, pode ser interessante adicionar outros projetos caso você tenha.
+
+Lembre-se: não tenha medo de personalizar esta página, afinal é o seu currículo e quanto mais tiver “a sua cara”, melhor.
+
+Agora é sua vez de criar, topa o desafio?
+
+### O que aprendemos?
+Nessa aula, você aprendeu como:
+- Fazer a estilização do header do portfólio;
+- Criar a nova página HTML “Sobre mim”;
+- Desenvolver a navegação entre as páginas “Home” e “Sobre mim”.
+
+
+
+# Aula 5 Aplicando variáveis CSS
+## ATIVIDADES
+- Projeto da aula anterior
+- Conteúdo da página Sobre Mim
+- Variáveis CSS
+- Aplicando as variáveis
+- Trabalhando com variáveis CSS
+- Para saber mais: as variáveis no mundo da programação
+- Faça como eu fiz: personalizando a paleta de cores!
+- Projeto final do curso 
+- Para saber mais: dicas de projeto
+- O que aprendemos?
+
+### Projeto da aula anterior
+- Projeto da aula anterior [acesse os arquivos no GitHub](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso3/tree/aula_4)
+
+### Conteúdo da página Sobre Mim
+- Conteúdo da página Sobre Mim [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119370)
+
+### - Variáveis CSS
+- Variáveis CSS [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119371)
+
+### Aplicando as variáveis
+- Aplicando as variáveis [acesse o vídeo](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/119372)
+
+### Trabalhando com variáveis CSS
+- Trabalhando com variáveis CSS [acesse](https://cursos.alura.com.br/course/html-css-cabecalho-footer-variaveis-css/task/121123)
+
+### Para saber mais: as variáveis no mundo da programação
+Um armário cheio de gavetas!
+- Imagine que você trabalhe em uma sala de arquivos, que possui um armário muito grande e cheio de gavetas. Todos os dias, pessoas trazem seus objetos para que você guarde em uma gaveta para eles e para isso, te entregam uma etiqueta com um nome que será colado nessa gaveta que armazenará o objeto da pessoa.
+
+- Ana te entregou uma caneta e uma etiqueta com o nome: canetaDaAna, e você guardou a caneta dela em uma gaveta, onde colou a etiqueta. Ela escolheu o nome canetaDaAna, mas poderia ser qualquer outro nome e seu conteúdo poderia ser qualquer um também, como um livro, por exemplo, e não uma caneta.
+
+- Quando Ana precisar da caneta, ela irá te chamar e pedir pela canetaDaAna, e você a entregará o conteúdo da gaveta, ou seja, a caneta.
+
+E como isso se relaciona com as variáveis?
+
+- Seu armário de gavetas no exemplo acima representa a memória do computador. Quando criamos uma variável, estamos solicitando ao computador que reserve uma “gavetinha” em sua memória para que guarde algo que precisaremos usar futuramente, e fazemos isso atribuindo um nome de variável que poderemos chamar a qualquer momento e que retornará o conteúdo que guardamos dentro dela. Esse nome pode ser um nome qualquer, no entanto sempre que solicitado ele trará como resposta aquilo que você armazenou nele.
+
+O que são variáveis?
+- Variáveis são elementos que permitem que valores sejam manipulados ao longo da execução de seu código, através da definição de um nome para armazenar um valor que será usado repetidas vezes. Essa definição do nome e do conteúdo que será contido nele é o que nós chamamos de declaração.
+Esse valor pode ser alterado ao longo do código, por isso o nome “váriavel”.
+
+Observe o seguinte exemplo:
+```
+:root{
+     --tamanho-da-fonte:  24px;
+}
+```
+
+- Criamos no :root, ou seja, no escopo global de um código, uma variável que foi declarada com o nome --tamanho-da-fonte e seu valor foi atribuído como 24px. Toda vez que chamarmos pelo nome --tamanho-da-fonte, iremos obter como retorno o valor 24px.
+
+- Variáveis são utilizadas diariamente pelas pessoas desenvolvedoras para que consigam manipular e reutilizar valores em seu código e estão presentes nas mais diversas linguagens de programação, pois são elementos base ao criar qualquer código que tenha a mínima funcionalidade. Portanto, conforme você evoluir em seus conhecimentos no desenvolvimento é certo que irá lidar muito com variáveis.
+
+- Para saber mais sobre as variáveis em CSS, você pode conferir a [documentação.](https://developer.mozilla.org/pt-BR/docs/Web/CSS/Using_CSS_custom_properties)
+
+
+
+### Faça como eu fiz: personalizando a paleta de cores!
+- Nessa aula conhecemos as variáveis CSS e descobrimos seu potencial para customização do projeto.
+
+- Agora, gostaríamos de te convidar a fazer como foi feito em aula e buscar outras paletas de cores que possam ser aplicadas no projeto através das variáveis CSS que criamos.
+
+- As cores causam um grande impacto e alterando elas você pode obter um projeto com uma cara totalmente nova. Caso queira pesquisar paletas como foi feito em aula, você pode acessar o [Color Hunt.](https://colorhunt.co/) Outra opção interessante é a [Roda de Cores da Adobe.](https://color.adobe.com/pt/create/color-wheel)
+
+- Um atalho que pode facilitar muito o processo de alterar as cores em todo o código para atribuir em seu lugar a variável é o ctrl + D. Basta selecionar o que deseja mudar com o mouse e em seguida clicar em ctrl + D até que todos os valores que você deseja alterar estejam selecionados. Isso irá permitir mudar ao mesmo tempo todos os valores seguintes que sejam iguais ao que você selecionou com o mouse, como podemos observar no gif a seguir:
+
+![](https://caelum-online-public.s3.amazonaws.com/2811-html-css-cabecalho-footer-variaveis-css/aula5-img1.gif)
+
+- Se quiser relembrar esse processo de transformação da paleta do projeto, recomendamos o vídeo [Como as variáveis CSS transformam meu projeto?,](https://cursos.alura.com.br/extra/alura-mais/como-as-variaveis-css-transformam-meu-projeto--c1485) onde você pode reforçar os conceitos que aprendeu em aula. Você também pode conferir outras opções de sites para escolher sua paleta de cores através do [Para saber mais: escolhendo as cores do seu projeto](https://cursos.alura.com.br/course/html-css-ambiente-arquivos-tags/task/120614) , que está no curso 1 de HTML e CSS.
+
+Opinião do instrutor
+
+Por aqui, escolhemos aplicar uma paleta bem colorida, que encontramos no [Color Hunt.](https://colorhunt.co/) Caso queira utilizá-la, basta clicar [aqui.](https://colorhunt.co/palette/fa7070fbf2cfc6ebc5a1c298) Observe o resultado na imagem abaixo:
+
+![](https://caelum-online-public.s3.amazonaws.com/2811-html-css-cabecalho-footer-variaveis-css/aula5-img2.png)
+
+- A paleta de cores tem o poder de transformar a identidade do projeto. A que escolhemos aqui, por exemplo, poderia tranquilamente se tornar uma página sobre uma sorveteria, pois traz cores que remetem a esse tipo de negócio. E tudo o que fizemos aqui foi adicionar as cores de acordo com a nova paleta no seletor :root, pois as variáveis já estavam aplicadas ao longo do projeto, bastava alterar seus valores em um único lugar, como podemos ver no código a seguir:
+
+```
+:root {
+    --cor-primaria: #FA7070;
+    --cor-secundaria: #C6EBC5;
+    --cor-terciaria: #FBF2CF;
+    --cor-hover: #A1C298;
+}
+```
+
+E assim temos um projeto transformado!
+
+
+### Projeto final do curso
+- Projeto final do curso [acesse os arquivos no GitHub](https://github.com/alura-cursos/Portifolio-HTML-e-CSS-Curso3/tree/aula_5)
+
+### Para saber mais: dicas de projeto
+- Enfim, não deixe de praticar e evoluir seu conhecimento. Bons estudos, até a próxima!
+
+- Você também encontra várias outras ideias de projeto nesse vídeo no canal da [Rafa Ballerini:](https://youtu.be/y4ltLH9iK8E)
+
+### O que aprendemos?
+Nessa aula, você aprendeu como:
+- Adicionar conteúdo a uma nova página;
+- O que são variáveis CSS;
+- Como customizar o projeto aplicando variáveis CSS.
+
