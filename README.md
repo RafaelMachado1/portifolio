@@ -12,10 +12,13 @@
 
 * Flex-box
 
-## Feito por:
 
-### Rafael Machado
+### Link de demonstração do projeto: https://portifolio-8xfo.vercel.app/index.html
 
-### Linkedin: https://www.linkedin.com/in/rafa25/
 
-### Link de demonstração do projeto: https://portifolio-rho-pied.vercel.app/
+
+📧 Meus Contatos
+
+[![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/rafa25/)
+
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/rafaelmartinsmachado/)
