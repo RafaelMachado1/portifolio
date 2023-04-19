@@ -91,6 +91,12 @@ body {
     }
     .cabecalho__menu{
         justify-content: center;
+        gap: 30px;
+    }
+    .cabecalho__menu__link {
+       
+        font-size: 1.2rem;
+       
     }
     .apresentacao{
         flex-direction: column-reverse;
@@ -105,14 +111,13 @@ body {
 
 @media (max-width: 614px){
     .cabecalho__menu{
-        gap: 30px;
-        
-        
+        justify-content: center;
+        gap: 20px;
     }
-
-    .cabecalho__menu__link{
-        font-size: 1.3rem;
-        
+    .cabecalho__menu__link {
+       
+        font-size: 1rem;
+       
     }
 
     .apresentacao__imagem {
@@ -121,9 +126,18 @@ body {
 }
 
 @media (max-width: 431px){
-    .cabecalho__menu__link{
-        font-size: 1rem;
-        
+    .cabecalho__menu{
+        justify-content: center;
+        gap: 10px;
+    }
+    .cabecalho__menu__link {
+       
+        font-size: 0.6rem;
+       
+    }
+
+    .apresentacao__imagem {
+        width: 60%;
     }
 }
 
