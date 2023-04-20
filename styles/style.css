@@ -143,6 +143,7 @@ body {
 
     .apresentacao__conteudo {
         width: auto;
+        text-align: center;
     }
 
 
@@ -155,7 +156,7 @@ body {
 }
 
 
-@media (max-width: 610px) {
+@media (max-width: 540px) {
     .cabecalho {
         padding: 10%;
 
