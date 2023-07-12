@@ -58,6 +58,7 @@ body {
 .apresentacao__conteudo__titulo {
     font-size: 2rem;
     font-family: var(--fonte-primaria);
+    text-align:start;
    
 }
 
@@ -68,6 +69,8 @@ body {
 .apresentacao__conteudo__texto {
     font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
+    text-align: center;
+    text-align: justify;
     
 }
 
@@ -108,7 +111,7 @@ body {
 
 .apresentacao__imagem {
     width: 40%;
-    margin-bottom: 33%;
+    margin-bottom: 53%;
 }
 
 .rodape {
